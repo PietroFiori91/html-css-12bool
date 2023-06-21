@@ -22,15 +22,22 @@
   /* TEMPORANEO */
   background-color: greenyellow;
   border: 1px solid white;
-  height: 50px;
+  min-height: 50px;
 }
 
 .col-blue {
   background-color: blue;
-  height: 40px;
-  padding: 1rem 1rem;
+  min-height: 50px;
 }
 
+.col-null {
+    flex-basis: 0;
+    max-width: 0);
+}
+
+.padding {
+    padding: 1rem 1rem;
+}
 /* COL */
 
 .col {
